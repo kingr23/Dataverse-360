@@ -1,0 +1,304 @@
+[0m22:31:36.336400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA9CC81310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA9DD53D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA9DD53EB0>]}
+
+
+============================== 22:31:36.340741 | 9efd1adb-baec-44b7-916e-797fde48c7be ==============================
+[0m22:31:36.340741 [info ] [MainThread]: Running with dbt=1.10.5
+[0m22:31:36.340741 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:31:36.368798 [info ] [MainThread]: dbt version: 1.10.5
+[0m22:31:36.369797 [info ] [MainThread]: python version: 3.9.23
+[0m22:31:36.369797 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m22:31:36.370796 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:31:36.370796 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m22:31:36.370796 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m22:31:36.372158 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m22:31:36.372158 [info ] [MainThread]: Configuration:
+[0m22:31:36.373164 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m22:31:36.373709 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:31:36.374163 [info ] [MainThread]: Required dependencies:
+[0m22:31:36.374163 [debug] [MainThread]: Executing "git --help"
+[0m22:31:36.406350 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:31:36.407137 [debug] [MainThread]: STDERR: "b''"
+[0m22:31:36.407523 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:31:36.407523 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:31:36.408631 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:31:36.409140 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:31:36.409140 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m22:31:36.410237 [debug] [MainThread]: Command `dbt debug` failed at 22:31:36.410237 after 0.14 seconds
+[0m22:31:36.410237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA9CC81310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA9DD53E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EA9DD53C40>]}
+[0m22:31:36.411242 [debug] [MainThread]: Flushing usage events
+[0m22:31:36.959177 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:41:48.809559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E48F7E22E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E4908753D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E490875100>]}
+
+
+============================== 22:41:48.813758 | 1e04e18b-1f28-4fd9-9ed8-283129ec0e3b ==============================
+[0m22:41:48.813758 [info ] [MainThread]: Running with dbt=1.10.5
+[0m22:41:48.814759 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:41:48.835256 [info ] [MainThread]: dbt version: 1.10.5
+[0m22:41:48.836257 [info ] [MainThread]: python version: 3.9.23
+[0m22:41:48.837257 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m22:41:48.837257 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:41:48.838277 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m22:41:48.839258 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m22:41:48.839258 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m22:41:48.840766 [info ] [MainThread]: Configuration:
+[0m22:41:48.841283 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m22:41:48.841964 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:41:48.841964 [info ] [MainThread]: Required dependencies:
+[0m22:41:48.843021 [debug] [MainThread]: Executing "git --help"
+[0m22:41:48.862111 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:41:48.863112 [debug] [MainThread]: STDERR: "b''"
+[0m22:41:48.864109 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:41:48.864109 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:41:48.865110 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:41:48.866612 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:41:48.866612 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m22:41:48.867989 [debug] [MainThread]: Command `dbt debug` failed at 22:41:48.867989 after 0.13 seconds
+[0m22:41:48.868997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E48F7E22E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E490875700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E490875DC0>]}
+[0m22:41:48.868997 [debug] [MainThread]: Flushing usage events
+[0m22:41:49.373556 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:05:55.970952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131523D1280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131534A3D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131534A3DF0>]}
+
+
+============================== 23:05:55.970952 | 64ce1c5d-5697-4590-a4b8-9b931c5a509c ==============================
+[0m23:05:55.970952 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:05:55.970952 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:05:55.998029 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:05:55.998029 [info ] [MainThread]: python version: 3.9.23
+[0m23:05:55.999060 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:05:55.999060 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:05:55.999060 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m23:05:55.999060 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m23:05:56.000582 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m23:05:56.000582 [info ] [MainThread]: Configuration:
+[0m23:05:56.000582 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m23:05:56.002330 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:05:56.002330 [info ] [MainThread]: Required dependencies:
+[0m23:05:56.002892 [debug] [MainThread]: Executing "git --help"
+[0m23:05:56.035703 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:05:56.035703 [debug] [MainThread]: STDERR: "b''"
+[0m23:05:56.035703 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:05:56.035703 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:05:56.035703 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:05:56.039036 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:05:56.039036 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m23:05:56.039036 [debug] [MainThread]: Command `dbt debug` failed at 23:05:56.039036 after 0.13 seconds
+[0m23:05:56.039036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131523D1280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131534A3D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131534A3C70>]}
+[0m23:05:56.039036 [debug] [MainThread]: Flushing usage events
+[0m23:05:56.586221 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:07:15.554369 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A17D8212B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A17E8F3C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A17E8F3F40>]}
+
+
+============================== 23:07:15.558275 | ac12eab5-bd15-4500-b218-1b61e4a8470e ==============================
+[0m23:07:15.558275 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:07:15.558275 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m23:07:15.570850 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:07:15.570850 [info ] [MainThread]: python version: 3.9.23
+[0m23:07:15.570850 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:07:15.570850 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:07:15.578626 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m23:07:15.578626 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m23:07:15.578626 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m23:07:15.578626 [info ] [MainThread]: Configuration:
+[0m23:07:15.578626 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m23:07:15.578626 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:07:15.578626 [info ] [MainThread]: Required dependencies:
+[0m23:07:15.578626 [debug] [MainThread]: Executing "git --help"
+[0m23:07:15.618115 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:07:15.618115 [debug] [MainThread]: STDERR: "b''"
+[0m23:07:15.618115 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:07:15.618115 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:07:15.620162 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:07:15.620162 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:07:15.620162 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m23:07:15.620162 [debug] [MainThread]: Command `dbt debug` failed at 23:07:15.620162 after 0.13 seconds
+[0m23:07:15.620162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A17D8212B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A17E8F3F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A17E8F3B50>]}
+[0m23:07:15.620162 [debug] [MainThread]: Flushing usage events
+[0m23:07:16.137001 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:08:17.292021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B9798B12E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B97A9403D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B97A940100>]}
+
+
+============================== 23:08:17.296665 | 528c8a15-e5df-4aae-bf2c-2e7987b4b7df ==============================
+[0m23:08:17.296665 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:08:17.296665 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:08:17.317449 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:08:17.317449 [info ] [MainThread]: python version: 3.9.23
+[0m23:08:17.317449 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:08:17.317449 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:08:17.317449 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m23:08:17.317449 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m23:08:17.317449 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m23:08:17.317449 [info ] [MainThread]: Configuration:
+[0m23:08:17.317449 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m23:08:17.317449 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:08:17.317449 [info ] [MainThread]: Required dependencies:
+[0m23:08:17.317449 [debug] [MainThread]: Executing "git --help"
+[0m23:08:17.358158 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:08:17.358158 [debug] [MainThread]: STDERR: "b''"
+[0m23:08:17.360182 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:08:17.360182 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:08:17.360182 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:08:17.360182 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:08:17.360182 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m23:08:17.363267 [debug] [MainThread]: Command `dbt debug` failed at 23:08:17.360182 after 0.13 seconds
+[0m23:08:17.363267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B9798B12E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B97A940700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B97A9403D0>]}
+[0m23:08:17.363267 [debug] [MainThread]: Flushing usage events
+[0m23:08:17.867405 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:39:23.583352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C24701280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C257D3D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C257D3DF0>]}
+
+
+============================== 19:39:23.591180 | 4b251818-3e53-4e9b-8923-15921d6f1dae ==============================
+[0m19:39:23.591180 [info ] [MainThread]: Running with dbt=1.10.5
+[0m19:39:23.597365 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:39:23.639170 [info ] [MainThread]: dbt version: 1.10.5
+[0m19:39:23.646101 [info ] [MainThread]: python version: 3.9.23
+[0m19:39:23.647030 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m19:39:23.647030 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:39:23.647030 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m19:39:23.649545 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m19:39:23.649545 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m19:39:23.649545 [info ] [MainThread]: Configuration:
+[0m19:39:23.649545 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:39:23.649545 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:39:23.649545 [info ] [MainThread]: Required dependencies:
+[0m19:39:23.649545 [debug] [MainThread]: Executing "git --help"
+[0m19:39:23.711760 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:39:23.711760 [debug] [MainThread]: STDERR: "b''"
+[0m19:39:23.711760 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:39:23.721499 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:39:23.723644 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:39:23.725412 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:39:23.725974 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m19:39:23.725974 [debug] [MainThread]: Command `dbt debug` failed at 19:39:23.725974 after 0.29 seconds
+[0m19:39:23.725974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C24701280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C257D3D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C257D3C70>]}
+[0m19:39:23.729505 [debug] [MainThread]: Flushing usage events
+[0m19:39:24.565713 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:41:58.701984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218AE4E12E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218AF5713D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218AF571100>]}
+
+
+============================== 19:41:58.708215 | 8baea850-f09b-4c8c-aff0-5b5b775c607a ==============================
+[0m19:41:58.708215 [info ] [MainThread]: Running with dbt=1.10.5
+[0m19:41:58.708215 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:41:58.734234 [info ] [MainThread]: dbt version: 1.10.5
+[0m19:41:58.736255 [info ] [MainThread]: python version: 3.9.23
+[0m19:41:58.736255 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m19:41:58.736255 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:41:58.739267 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m19:41:58.739267 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m19:41:58.739267 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m19:41:58.739267 [info ] [MainThread]: Configuration:
+[0m19:41:58.739267 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:41:58.739267 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:41:58.739267 [info ] [MainThread]: Required dependencies:
+[0m19:41:58.739267 [debug] [MainThread]: Executing "git --help"
+[0m19:41:58.790827 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:41:58.790827 [debug] [MainThread]: STDERR: "b''"
+[0m19:41:58.797303 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:41:58.797303 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:41:58.797303 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:41:58.797303 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:41:58.801828 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m19:41:58.801828 [debug] [MainThread]: Command `dbt debug` failed at 19:41:58.801828 after 0.23 seconds
+[0m19:41:58.801828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218AE4E12E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218AF571700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218AF5713D0>]}
+[0m19:41:58.801828 [debug] [MainThread]: Flushing usage events
+[0m19:42:01.709853 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:44:28.745205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA5FE512E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA60EE13D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA60EE1100>]}
+
+
+============================== 19:44:28.752321 | b9b2ba93-9156-432d-8509-b2a1097cd2a0 ==============================
+[0m19:44:28.752321 [info ] [MainThread]: Running with dbt=1.10.5
+[0m19:44:28.753432 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:44:28.782518 [info ] [MainThread]: dbt version: 1.10.5
+[0m19:44:28.784111 [info ] [MainThread]: python version: 3.9.23
+[0m19:44:28.784111 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m19:44:28.784111 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:44:28.786137 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m19:44:28.787888 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m19:44:28.788397 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml
+[0m19:44:28.788397 [info ] [MainThread]: Configuration:
+[0m19:44:28.788397 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:44:28.788397 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:44:28.788397 [info ] [MainThread]: Required dependencies:
+[0m19:44:28.793568 [debug] [MainThread]: Executing "git --help"
+[0m19:44:28.848199 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:44:28.849259 [debug] [MainThread]: STDERR: "b''"
+[0m19:44:28.850545 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:44:28.851618 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:44:28.852687 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:44:28.853748 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:44:28.854809 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt_project.yml> not found
+
+[0m19:44:28.856452 [debug] [MainThread]: Command `dbt debug` failed at 19:44:28.856452 after 0.28 seconds
+[0m19:44:28.857506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA5FE512E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA60EE1700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CA60EE13D0>]}
+[0m19:44:28.858620 [debug] [MainThread]: Flushing usage events
+[0m19:44:29.528860 [debug] [MainThread]: An error was encountered while trying to flush usage events
