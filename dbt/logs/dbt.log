@@ -1,0 +1,555 @@
+[0m22:42:30.387459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A8ECD22B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A8FDA9C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A8FDA9F10>]}
+
+
+============================== 22:42:30.392110 | a2d6776f-23f3-4f1d-b9bc-7e0bc9b9d8e3 ==============================
+[0m22:42:30.392110 [info ] [MainThread]: Running with dbt=1.10.5
+[0m22:42:30.393327 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:42:30.422858 [info ] [MainThread]: dbt version: 1.10.5
+[0m22:42:30.424864 [info ] [MainThread]: python version: 3.9.23
+[0m22:42:30.424864 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m22:42:30.425865 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:42:30.425865 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m22:42:30.427148 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m22:42:30.427148 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m22:42:30.531351 [info ] [MainThread]: Configuration:
+[0m22:42:30.531351 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m22:42:30.533275 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:42:30.533275 [info ] [MainThread]: Required dependencies:
+[0m22:42:30.534758 [debug] [MainThread]: Executing "git --help"
+[0m22:42:30.555228 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:42:30.557249 [debug] [MainThread]: STDERR: "b''"
+[0m22:42:30.557249 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:42:30.558247 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:42:30.558247 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:42:30.559627 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:42:30.560639 [debug] [MainThread]: Command `dbt debug` failed at 22:42:30.560639 after 0.24 seconds
+[0m22:42:30.560639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A8ECD22B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A8CA59880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A8FEC5F70>]}
+[0m22:42:30.561635 [debug] [MainThread]: Flushing usage events
+[0m22:42:30.928026 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:54:22.964975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB75912B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB8664C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB8664F10>]}
+
+
+============================== 22:54:22.964975 | 0221c59f-c5d8-46d5-9a5e-62fe4ddb2d41 ==============================
+[0m22:54:22.964975 [info ] [MainThread]: Running with dbt=1.10.5
+[0m22:54:22.964975 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:54:22.985422 [info ] [MainThread]: dbt version: 1.10.5
+[0m22:54:22.985422 [info ] [MainThread]: python version: 3.9.23
+[0m22:54:22.985422 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m22:54:22.985422 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m22:54:22.985422 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m22:54:22.985422 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m22:54:22.985422 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m22:54:23.076853 [info ] [MainThread]: Configuration:
+[0m22:54:23.076853 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m22:54:23.076853 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:54:23.076853 [info ] [MainThread]: Required dependencies:
+[0m22:54:23.076853 [debug] [MainThread]: Executing "git --help"
+[0m22:54:23.118059 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:54:23.118059 [debug] [MainThread]: STDERR: "b''"
+[0m22:54:23.118059 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:54:23.118059 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:54:23.118059 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:54:23.118059 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:54:23.118059 [debug] [MainThread]: Command `dbt debug` failed at 22:54:23.118059 after 0.23 seconds
+[0m22:54:23.118059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB75912B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB4B19880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB8781F70>]}
+[0m22:54:23.118059 [debug] [MainThread]: Flushing usage events
+[0m22:54:23.711796 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:03:31.160710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4961512B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F497224C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F497224F10>]}
+
+
+============================== 23:03:31.171820 | 16869cd2-ac96-4c8c-bc69-37973f60df57 ==============================
+[0m23:03:31.171820 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:03:31.171820 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:03:31.191864 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:03:31.191864 [info ] [MainThread]: python version: 3.9.23
+[0m23:03:31.191864 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:03:31.191864 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:03:31.191864 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\.dbt
+[0m23:03:31.191864 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\.dbt\profiles.yml
+[0m23:03:31.191864 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m23:03:31.283228 [info ] [MainThread]: Configuration:
+[0m23:03:31.283228 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m23:03:31.283228 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:03:31.283228 [info ] [MainThread]: Required dependencies:
+[0m23:03:31.283228 [debug] [MainThread]: Executing "git --help"
+[0m23:03:31.314125 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:03:31.314125 [debug] [MainThread]: STDERR: "b''"
+[0m23:03:31.314125 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:03:31.314125 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:03:31.314125 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:03:31.314125 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\RSK_T14s\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:03:31.314125 [debug] [MainThread]: Command `dbt debug` failed at 23:03:31.314125 after 0.22 seconds
+[0m23:03:31.314125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4961512B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F493ED7880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F497342F70>]}
+[0m23:03:31.323806 [debug] [MainThread]: Flushing usage events
+[0m23:03:31.829324 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:03:53.374806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96A9E1340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96BAB5FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96BAB5E80>]}
+
+
+============================== 23:03:53.378893 | f9a93420-3aca-48b6-b263-0e6d114caf71 ==============================
+[0m23:03:53.378893 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:03:53.378893 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m23:03:53.397086 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:03:53.397086 [info ] [MainThread]: python version: 3.9.23
+[0m23:03:53.397086 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:03:53.397086 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:03:53.401873 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m23:03:53.401873 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m23:03:53.401873 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m23:03:53.489801 [info ] [MainThread]: Configuration:
+[0m23:03:53.489801 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m23:03:53.489801 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:03:53.489801 [info ] [MainThread]: Required dependencies:
+[0m23:03:53.489801 [debug] [MainThread]: Executing "git --help"
+[0m23:03:53.539716 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:03:53.539716 [debug] [MainThread]: STDERR: "b''"
+[0m23:03:53.539716 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:03:53.539716 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:03:53.539716 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:03:53.539716 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Profile default in profiles.yml is empty
+  
+
+
+[0m23:03:53.539716 [debug] [MainThread]: Command `dbt debug` failed at 23:03:53.539716 after 0.24 seconds
+[0m23:03:53.539716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96A9E1340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96BB8ED00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B96BA36520>]}
+[0m23:03:53.539716 [debug] [MainThread]: Flushing usage events
+[0m23:03:53.877276 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:09:13.508959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001528AB41310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001528BC15D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001528BC15F10>]}
+
+
+============================== 23:09:13.510992 | a13ec385-4539-45da-ae9b-2e0195475e79 ==============================
+[0m23:09:13.510992 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:09:13.510992 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:09:13.530065 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:09:13.531588 [info ] [MainThread]: python version: 3.9.23
+[0m23:09:13.531588 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:09:13.531588 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:09:13.531588 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m23:09:13.531588 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m23:09:13.531588 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m23:09:13.620243 [info ] [MainThread]: Configuration:
+[0m23:09:13.620243 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m23:09:13.620243 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:09:13.620243 [info ] [MainThread]: Required dependencies:
+[0m23:09:13.624561 [debug] [MainThread]: Executing "git --help"
+[0m23:09:13.655866 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:09:13.655866 [debug] [MainThread]: STDERR: "b''"
+[0m23:09:13.655866 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:09:13.655866 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:09:13.655866 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:09:13.655866 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Profile default in profiles.yml is empty
+  
+
+
+[0m23:09:13.655866 [debug] [MainThread]: Command `dbt debug` failed at 23:09:13.655866 after 0.23 seconds
+[0m23:09:13.655866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001528AB41310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001528BBE5130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001528BD36700>]}
+[0m23:09:13.655866 [debug] [MainThread]: Flushing usage events
+[0m23:09:13.998855 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:13:01.224315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203742812E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203752EB280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203752EBA60>]}
+
+
+============================== 23:13:01.236212 | 9eb51330-ea1e-47f7-9a19-84116268b9dc ==============================
+[0m23:13:01.236212 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:13:01.236212 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:13:01.258317 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:13:01.258317 [info ] [MainThread]: python version: 3.9.23
+[0m23:13:01.258317 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:13:01.258317 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:13:04.254660 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m23:13:04.254660 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m23:13:04.254660 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m23:13:04.260851 [info ] [MainThread]: adapter type: bigquery
+[0m23:13:04.260851 [info ] [MainThread]: adapter version: 1.10.1
+[0m23:13:04.383485 [info ] [MainThread]: Configuration:
+[0m23:13:04.383485 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:13:04.383485 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:13:04.392000 [info ] [MainThread]: Required dependencies:
+[0m23:13:04.392000 [debug] [MainThread]: Executing "git --help"
+[0m23:13:04.428414 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:13:04.428414 [debug] [MainThread]: STDERR: "b''"
+[0m23:13:04.428414 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:13:04.428414 [info ] [MainThread]: Connection:
+[0m23:13:04.428414 [info ] [MainThread]:   method: service-account
+[0m23:13:04.428414 [info ] [MainThread]:   database: dataverse-360
+[0m23:13:04.428414 [info ] [MainThread]:   execution_project: dataverse-360
+[0m23:13:04.428414 [info ] [MainThread]:   schema: transaction_analytics
+[0m23:13:04.428414 [info ] [MainThread]:   location: None
+[0m23:13:04.435351 [info ] [MainThread]:   priority: None
+[0m23:13:04.435351 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:13:04.435351 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:13:04.435351 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:13:04.435351 [info ] [MainThread]:   job_retries: 1
+[0m23:13:04.435351 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:13:04.435351 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m23:13:04.435351 [info ] [MainThread]:   timeout_seconds: None
+[0m23:13:04.435351 [info ] [MainThread]:   client_id: None
+[0m23:13:04.435351 [info ] [MainThread]:   token_uri: None
+[0m23:13:04.435351 [info ] [MainThread]:   compute_region: None
+[0m23:13:04.435351 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:13:04.435351 [info ] [MainThread]:   gcs_bucket: None
+[0m23:13:04.435351 [info ] [MainThread]:   dataproc_batch: None
+[0m23:13:04.444239 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m23:13:04.938070 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:13:04.938070 [debug] [MainThread]: On debug: select 1 as id
+[0m23:13:04.938070 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:13:04.938070 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Keys\\dataverse-360-2e3787868cd0''
+[0m23:13:04.938070 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m23:13:04.938070 [debug] [MainThread]: BigQuery adapter: Database Error
+  [Errno 2] No such file or directory: 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Keys\\dataverse-360-2e3787868cd0'
+[0m23:13:04.938070 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:13:04.938070 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:13:04.938070 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:13:04.948208 [debug] [MainThread]: Command `dbt debug` failed at 23:13:04.948208 after 3.80 seconds
+[0m23:13:04.948208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203742812E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002037FD5D310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002037FD5DC10>]}
+[0m23:13:04.951144 [debug] [MainThread]: Flushing usage events
+[0m23:13:05.409806 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:39:54.692414 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025610D91310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025611E65D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025611E65F10>]}
+
+
+============================== 23:39:54.702607 | f056bf95-6c18-436b-abac-4b50a4d187fe ==============================
+[0m23:39:54.702607 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:39:54.702607 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:39:54.741462 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:39:54.746277 [info ] [MainThread]: python version: 3.9.23
+[0m23:39:54.748286 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:39:54.748286 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:40:00.659733 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m23:40:00.660708 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m23:40:00.662969 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m23:40:00.662969 [info ] [MainThread]: adapter type: bigquery
+[0m23:40:00.664985 [info ] [MainThread]: adapter version: 1.10.1
+[0m23:40:00.851771 [info ] [MainThread]: Configuration:
+[0m23:40:00.853323 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:40:00.853323 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:40:00.857240 [info ] [MainThread]: Required dependencies:
+[0m23:40:00.857240 [debug] [MainThread]: Executing "git --help"
+[0m23:40:00.905092 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:40:00.907730 [debug] [MainThread]: STDERR: "b''"
+[0m23:40:00.907730 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:40:00.909750 [info ] [MainThread]: Connection:
+[0m23:40:00.909750 [info ] [MainThread]:   method: service-account
+[0m23:40:00.909750 [info ] [MainThread]:   database: dataverse-360
+[0m23:40:00.909750 [info ] [MainThread]:   execution_project: dataverse-360
+[0m23:40:00.909750 [info ] [MainThread]:   schema: transaction_analytics
+[0m23:40:00.909750 [info ] [MainThread]:   location: None
+[0m23:40:00.909750 [info ] [MainThread]:   priority: None
+[0m23:40:00.915238 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:40:00.915238 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:40:00.915238 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:40:00.915238 [info ] [MainThread]:   job_retries: 1
+[0m23:40:00.915238 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:40:00.915238 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m23:40:00.915238 [info ] [MainThread]:   timeout_seconds: None
+[0m23:40:00.915238 [info ] [MainThread]:   client_id: None
+[0m23:40:00.915238 [info ] [MainThread]:   token_uri: None
+[0m23:40:00.915238 [info ] [MainThread]:   compute_region: None
+[0m23:40:00.923536 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:40:00.923536 [info ] [MainThread]:   gcs_bucket: None
+[0m23:40:00.925559 [info ] [MainThread]:   dataproc_batch: None
+[0m23:40:00.925559 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m23:40:01.655720 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:40:01.655720 [debug] [MainThread]: On debug: select 1 as id
+[0m23:40:01.655720 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:40:01.657728 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Keys\\dataverse-360-2e3787868cd0''
+[0m23:40:01.657728 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m23:40:01.657728 [debug] [MainThread]: BigQuery adapter: Database Error
+  [Errno 2] No such file or directory: 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Keys\\dataverse-360-2e3787868cd0'
+[0m23:40:01.657728 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:40:01.657728 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:40:01.662698 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:40:01.664741 [debug] [MainThread]: Command `dbt debug` failed at 23:40:01.664741 after 7.12 seconds
+[0m23:40:01.664741 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025610D91310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002561D821BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002561D85C8B0>]}
+[0m23:40:01.668181 [debug] [MainThread]: Flushing usage events
+[0m23:40:02.347820 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:42:42.221022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219393912B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002193A465FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002193A465E20>]}
+
+
+============================== 23:42:42.230315 | c265f705-adc9-4c48-8d59-92c2df07f205 ==============================
+[0m23:42:42.230315 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:42:42.235794 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:42:42.261197 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:42:42.261197 [info ] [MainThread]: python version: 3.9.23
+[0m23:42:42.266195 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:42:42.266195 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:42:47.141608 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m23:42:47.143134 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m23:42:47.144282 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m23:42:47.144282 [info ] [MainThread]: adapter type: bigquery
+[0m23:42:47.144282 [info ] [MainThread]: adapter version: 1.10.1
+[0m23:42:47.323474 [info ] [MainThread]: Configuration:
+[0m23:42:47.324536 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:42:47.325608 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:42:47.325608 [info ] [MainThread]: Required dependencies:
+[0m23:42:47.325608 [debug] [MainThread]: Executing "git --help"
+[0m23:42:47.385828 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:42:47.385828 [debug] [MainThread]: STDERR: "b''"
+[0m23:42:47.385828 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:42:47.385828 [info ] [MainThread]: Connection:
+[0m23:42:47.396649 [info ] [MainThread]:   method: service-account
+[0m23:42:47.396649 [info ] [MainThread]:   database: dataverse-360
+[0m23:42:47.396649 [info ] [MainThread]:   execution_project: dataverse-360
+[0m23:42:47.396649 [info ] [MainThread]:   schema: transaction_analytics
+[0m23:42:47.396649 [info ] [MainThread]:   location: None
+[0m23:42:47.396649 [info ] [MainThread]:   priority: None
+[0m23:42:47.396649 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:42:47.396649 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:42:47.396649 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:42:47.396649 [info ] [MainThread]:   job_retries: 1
+[0m23:42:47.396649 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:42:47.396649 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m23:42:47.406339 [info ] [MainThread]:   timeout_seconds: None
+[0m23:42:47.406339 [info ] [MainThread]:   client_id: None
+[0m23:42:47.406339 [info ] [MainThread]:   token_uri: None
+[0m23:42:47.406339 [info ] [MainThread]:   compute_region: None
+[0m23:42:47.406339 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:42:47.406339 [info ] [MainThread]:   gcs_bucket: None
+[0m23:42:47.406339 [info ] [MainThread]:   dataproc_batch: None
+[0m23:42:47.412375 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m23:42:48.250744 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:42:48.250744 [debug] [MainThread]: On debug: select 1 as id
+[0m23:42:48.253376 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:42:49.282746 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:None:ceb3bee2-7f6a-45aa-9082-5b27be3bd0d2&page=queryresults
+[0m23:42:49.286302 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:42:49.286302 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:42:49.287828 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project dataverse-360: User does not have bigquery.jobs.create permission in project dataverse-360.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:42:49.291180 [debug] [MainThread]: Command `dbt debug` failed at 23:42:49.291180 after 7.21 seconds
+[0m23:42:49.291180 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:42:49.293190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219393912B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021945E839A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002193A277F40>]}
+[0m23:42:49.293190 [debug] [MainThread]: Flushing usage events
+[0m23:42:49.796375 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:44:56.234597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B343E01220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B344ED5C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B344ED5EB0>]}
+
+
+============================== 23:44:56.243621 | 1fbf9b79-fee0-4f70-b0b5-d2473b4a01f4 ==============================
+[0m23:44:56.243621 [info ] [MainThread]: Running with dbt=1.10.5
+[0m23:44:56.245549 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m23:44:56.273876 [info ] [MainThread]: dbt version: 1.10.5
+[0m23:44:56.275897 [info ] [MainThread]: python version: 3.9.23
+[0m23:44:56.275897 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m23:44:56.275897 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m23:45:00.602456 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m23:45:00.602456 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m23:45:00.602456 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m23:45:00.602456 [info ] [MainThread]: adapter type: bigquery
+[0m23:45:00.602456 [info ] [MainThread]: adapter version: 1.10.1
+[0m23:45:00.883703 [info ] [MainThread]: Configuration:
+[0m23:45:00.888785 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:45:00.890803 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:45:00.901452 [info ] [MainThread]: Required dependencies:
+[0m23:45:00.906443 [debug] [MainThread]: Executing "git --help"
+[0m23:45:00.974381 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:45:00.974381 [debug] [MainThread]: STDERR: "b''"
+[0m23:45:00.978004 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:45:00.978004 [info ] [MainThread]: Connection:
+[0m23:45:00.978004 [info ] [MainThread]:   method: service-account
+[0m23:45:00.978004 [info ] [MainThread]:   database: dataverse-360
+[0m23:45:00.982595 [info ] [MainThread]:   execution_project: dataverse-360
+[0m23:45:00.982595 [info ] [MainThread]:   schema: transaction_analytics
+[0m23:45:00.984717 [info ] [MainThread]:   location: None
+[0m23:45:00.984717 [info ] [MainThread]:   priority: None
+[0m23:45:00.984717 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m23:45:00.984717 [info ] [MainThread]:   impersonate_service_account: None
+[0m23:45:00.989210 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m23:45:00.991222 [info ] [MainThread]:   job_retries: 1
+[0m23:45:00.991222 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m23:45:00.993948 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m23:45:00.994972 [info ] [MainThread]:   timeout_seconds: None
+[0m23:45:00.994972 [info ] [MainThread]:   client_id: None
+[0m23:45:00.997060 [info ] [MainThread]:   token_uri: None
+[0m23:45:00.999076 [info ] [MainThread]:   compute_region: None
+[0m23:45:00.999076 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m23:45:01.001092 [info ] [MainThread]:   gcs_bucket: None
+[0m23:45:01.001092 [info ] [MainThread]:   dataproc_batch: None
+[0m23:45:01.003104 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m23:45:01.679683 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m23:45:01.680243 [debug] [MainThread]: On debug: select 1 as id
+[0m23:45:01.680821 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:45:03.453866 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:e95b1197-eeaa-46ac-a745-a07f51a8e872&page=queryresults
+[0m23:45:04.867935 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:45:04.867935 [info ] [MainThread]: [32mAll checks passed![0m
+[0m23:45:04.875041 [debug] [MainThread]: Command `dbt debug` succeeded at 23:45:04.875041 after 8.80 seconds
+[0m23:45:04.875041 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:45:04.875041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B343E01220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B344089A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B3508CB970>]}
+[0m23:45:04.877811 [debug] [MainThread]: Flushing usage events
+[0m23:45:05.575780 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:03:52.619385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025F4D5D1310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025F4E6A5D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025F4E6A5F10>]}
+
+
+============================== 18:03:52.629789 | 3db9efbb-e024-41a4-aac8-786aa89e27ac ==============================
+[0m18:03:52.629789 [info ] [MainThread]: Running with dbt=1.10.5
+[0m18:03:52.629789 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:03:52.661117 [info ] [MainThread]: dbt version: 1.10.5
+[0m18:03:52.661117 [info ] [MainThread]: python version: 3.9.23
+[0m18:03:52.661117 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m18:03:52.661117 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m18:03:58.049781 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m18:03:58.051300 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m18:03:58.051300 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m18:03:58.054296 [info ] [MainThread]: adapter type: bigquery
+[0m18:03:58.054296 [info ] [MainThread]: adapter version: 1.10.1
+[0m18:03:58.292630 [info ] [MainThread]: Configuration:
+[0m18:03:58.294643 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:03:58.294643 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:03:58.296659 [info ] [MainThread]: Required dependencies:
+[0m18:03:58.296659 [debug] [MainThread]: Executing "git --help"
+[0m18:03:58.361166 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:03:58.361166 [debug] [MainThread]: STDERR: "b''"
+[0m18:03:58.361166 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:03:58.361166 [info ] [MainThread]: Connection:
+[0m18:03:58.361166 [info ] [MainThread]:   method: service-account
+[0m18:03:58.361166 [info ] [MainThread]:   database: dataverse-360
+[0m18:03:58.361166 [info ] [MainThread]:   execution_project: dataverse-360
+[0m18:03:58.361166 [info ] [MainThread]:   schema: transaction_analytics
+[0m18:03:58.361166 [info ] [MainThread]:   location: None
+[0m18:03:58.361166 [info ] [MainThread]:   priority: None
+[0m18:03:58.361166 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m18:03:58.371001 [info ] [MainThread]:   impersonate_service_account: None
+[0m18:03:58.371001 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m18:03:58.371001 [info ] [MainThread]:   job_retries: 1
+[0m18:03:58.371001 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m18:03:58.371001 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m18:03:58.371001 [info ] [MainThread]:   timeout_seconds: None
+[0m18:03:58.376766 [info ] [MainThread]:   client_id: None
+[0m18:03:58.377871 [info ] [MainThread]:   token_uri: None
+[0m18:03:58.379500 [info ] [MainThread]:   compute_region: None
+[0m18:03:58.384177 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m18:03:58.385290 [info ] [MainThread]:   gcs_bucket: None
+[0m18:03:58.386408 [info ] [MainThread]:   dataproc_batch: None
+[0m18:03:58.388072 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m18:03:59.228889 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m18:03:59.228889 [debug] [MainThread]: On debug: select 1 as id
+[0m18:03:59.228889 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:04:00.723301 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:cc0487a6-9507-4842-bd11-6651875cf041&page=queryresults
+[0m18:04:01.854805 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:04:01.855816 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:04:01.859397 [debug] [MainThread]: Command `dbt debug` succeeded at 18:04:01.859397 after 9.42 seconds
+[0m18:04:01.861486 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:04:01.861486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025F4D5D1310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025F5A0F7790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025F5A0F73A0>]}
+[0m18:04:01.861486 [debug] [MainThread]: Flushing usage events
+[0m18:04:02.490565 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:45:30.771784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A899EE12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A89AFB5FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A89AFB5E20>]}
+
+
+============================== 19:45:30.781651 | 5db68b18-cc1e-4649-a13b-7933f3a5e754 ==============================
+[0m19:45:30.781651 [info ] [MainThread]: Running with dbt=1.10.5
+[0m19:45:30.781651 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:45:30.820059 [info ] [MainThread]: dbt version: 1.10.5
+[0m19:45:30.824186 [info ] [MainThread]: python version: 3.9.23
+[0m19:45:30.826018 [info ] [MainThread]: python path: C:\Users\RSK_T14s\miniconda3\envs\dataverse-360\python.exe
+[0m19:45:30.827757 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:45:37.045100 [info ] [MainThread]: Using profiles dir at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt
+[0m19:45:37.045100 [info ] [MainThread]: Using profiles.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\profiles.yml
+[0m19:45:37.045100 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\dbt_project.yml
+[0m19:45:37.045100 [info ] [MainThread]: adapter type: bigquery
+[0m19:45:37.045100 [info ] [MainThread]: adapter version: 1.10.1
+[0m19:45:37.220391 [info ] [MainThread]: Configuration:
+[0m19:45:37.220391 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:45:37.232408 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:45:37.232408 [info ] [MainThread]: Required dependencies:
+[0m19:45:37.232408 [debug] [MainThread]: Executing "git --help"
+[0m19:45:37.281909 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:45:37.281909 [debug] [MainThread]: STDERR: "b''"
+[0m19:45:37.281909 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:45:37.281909 [info ] [MainThread]: Connection:
+[0m19:45:37.281909 [info ] [MainThread]:   method: service-account
+[0m19:45:37.288547 [info ] [MainThread]:   database: dataverse-360
+[0m19:45:37.288547 [info ] [MainThread]:   execution_project: dataverse-360
+[0m19:45:37.290570 [info ] [MainThread]:   schema: transaction_analytics
+[0m19:45:37.290570 [info ] [MainThread]:   location: None
+[0m19:45:37.292088 [info ] [MainThread]:   priority: None
+[0m19:45:37.292088 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m19:45:37.292088 [info ] [MainThread]:   impersonate_service_account: None
+[0m19:45:37.294858 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m19:45:37.294858 [info ] [MainThread]:   job_retries: 1
+[0m19:45:37.294858 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m19:45:37.294858 [info ] [MainThread]:   job_execution_timeout_seconds: None
+[0m19:45:37.294858 [info ] [MainThread]:   timeout_seconds: None
+[0m19:45:37.294858 [info ] [MainThread]:   client_id: None
+[0m19:45:37.294858 [info ] [MainThread]:   token_uri: None
+[0m19:45:37.294858 [info ] [MainThread]:   compute_region: None
+[0m19:45:37.294858 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m19:45:37.294858 [info ] [MainThread]:   gcs_bucket: None
+[0m19:45:37.302566 [info ] [MainThread]:   dataproc_batch: None
+[0m19:45:37.302566 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m19:45:37.979494 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m19:45:37.979494 [debug] [MainThread]: On debug: select 1 as id
+[0m19:45:37.979494 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:45:39.736697 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:556dd7f1-c79b-4c9c-9d9c-091b500e7d07&page=queryresults
+[0m19:45:40.754057 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:45:40.756069 [info ] [MainThread]: [32mAll checks passed![0m
+[0m19:45:40.760038 [debug] [MainThread]: Command `dbt debug` succeeded at 19:45:40.760038 after 10.21 seconds
+[0m19:45:40.760038 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:45:40.762175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A899EE12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A89A6FF490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8A692DD30>]}
+[0m19:45:40.762175 [debug] [MainThread]: Flushing usage events
+[0m19:45:41.373950 [debug] [MainThread]: An error was encountered while trying to flush usage events

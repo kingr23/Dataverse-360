@@ -1,0 +1,10 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: dataverse-360
+      dataset: transaction_analytics
+      threads: 1
+      keyfile: 'C:\Users\RSK_T14s\Documents\Full Stack Data Project\Keys\dataverse-360-2e3787868cd0.json'
