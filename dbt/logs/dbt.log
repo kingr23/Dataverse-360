@@ -553,3 +553,279 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m19:45:40.762175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A899EE12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A89A6FF490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8A692DD30>]}
 [0m19:45:40.762175 [debug] [MainThread]: Flushing usage events
 [0m19:45:41.373950 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:01:22.227688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A57B149BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A57C244F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A57C244DC0>]}
+
+
+============================== 16:01:22.237891 | 68ee7ae8-e4f4-4251-b3f4-4c24d748fa14 ==============================
+[0m16:01:22.237891 [info ] [MainThread]: Running with dbt=1.10.5
+[0m16:01:22.240530 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:01:30.103366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '68ee7ae8-e4f4-4251-b3f4-4c24d748fa14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A508BAB6A0>]}
+[0m16:01:30.494663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '68ee7ae8-e4f4-4251-b3f4-4c24d748fa14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A5755A6190>]}
+[0m16:01:30.496195 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m16:01:31.368597 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m16:01:31.375121 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:01:31.375121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '68ee7ae8-e4f4-4251-b3f4-4c24d748fa14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A509D37CD0>]}
+[0m16:01:33.186380 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.transaction_analytics.staging
+[0m16:01:33.208693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '68ee7ae8-e4f4-4251-b3f4-4c24d748fa14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A50A5EDEB0>]}
+[0m16:01:33.309316 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\target\manifest.json
+[0m16:01:33.324980 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\target\semantic_manifest.json
+[0m16:01:33.371402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '68ee7ae8-e4f4-4251-b3f4-4c24d748fa14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A50A68F430>]}
+[0m16:01:33.376054 [info ] [MainThread]: Found 4 models, 4 sources, 496 macros
+[0m16:01:33.376054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '68ee7ae8-e4f4-4251-b3f4-4c24d748fa14', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A50A290DF0>]}
+[0m16:01:33.376054 [info ] [MainThread]: 
+[0m16:01:33.381532 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m16:01:33.381532 [info ] [MainThread]: 
+[0m16:01:33.381532 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m16:01:33.387102 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_dataverse-360'
+[0m16:01:33.391722 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:01:33.391722 [debug] [ThreadPool]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Keys\\dataverse-360-2e3787868cd0.json''
+[0m16:01:33.393752 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:01:33.395769 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Keys\\dataverse-360-2e3787868cd0.json''
+[0m16:01:33.396783 [info ] [MainThread]: 
+[0m16:01:33.396783 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.02 seconds (0.02s).
+[0m16:01:33.396783 [error] [MainThread]: Encountered an error:
+Database Error
+  [Errno 2] No such file or directory: 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Keys\\dataverse-360-2e3787868cd0.json'
+[0m16:01:33.396783 [debug] [MainThread]: Command `dbt run` failed at 16:01:33.396783 after 11.32 seconds
+[0m16:01:33.396783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A57B149BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A50A392490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A50A70A2B0>]}
+[0m16:01:33.402101 [debug] [MainThread]: Flushing usage events
+[0m16:01:34.521327 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:05:23.313643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D60F8BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D71F4F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D71F4DC0>]}
+
+
+============================== 16:05:23.313643 | 789505ea-0fb5-49ad-ac4c-312938c50c59 ==============================
+[0m16:05:23.313643 [info ] [MainThread]: Running with dbt=1.10.5
+[0m16:05:23.313643 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\RSK_T14s\\Documents\\Full Stack Data Project\\Dataverse-360\\dbt\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:05:28.878650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D7196A30>]}
+[0m16:05:29.270590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D9C65850>]}
+[0m16:05:29.272242 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m16:05:30.176785 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m16:05:30.466486 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:05:30.466486 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:05:30.485753 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.transaction_analytics.staging
+[0m16:05:30.537136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D6A36130>]}
+[0m16:05:30.649637 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\target\manifest.json
+[0m16:05:30.656890 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\target\semantic_manifest.json
+[0m16:05:30.711583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1E4CD1A60>]}
+[0m16:05:30.712682 [info ] [MainThread]: Found 4 models, 4 sources, 496 macros
+[0m16:05:30.712682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D69DBC10>]}
+[0m16:05:30.717801 [info ] [MainThread]: 
+[0m16:05:30.717801 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m16:05:30.717801 [info ] [MainThread]: 
+[0m16:05:30.721112 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m16:05:30.730204 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_dataverse-360'
+[0m16:05:30.733776 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:05:31.884298 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_dataverse-360_transaction_analytics'
+[0m16:05:31.884298 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:05:33.104963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D3E340D0>]}
+[0m16:05:33.104963 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:05:33.178254 [debug] [Thread-1  ]: Began running node model.transaction_analytics.stg_cards
+[0m16:05:33.178254 [info ] [Thread-1  ]: 1 of 4 START sql view model transaction_analytics.stg_cards .................... [RUN]
+[0m16:05:33.178254 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.transaction_analytics.stg_cards'
+[0m16:05:33.190657 [debug] [Thread-1  ]: Began compiling node model.transaction_analytics.stg_cards
+[0m16:05:33.209694 [debug] [Thread-1  ]: Writing injected SQL for node "model.transaction_analytics.stg_cards"
+[0m16:05:33.213098 [debug] [Thread-1  ]: Began executing node model.transaction_analytics.stg_cards
+[0m16:05:33.251492 [debug] [Thread-1  ]: Writing runtime sql for node "model.transaction_analytics.stg_cards"
+[0m16:05:33.256718 [debug] [Thread-1  ]: On model.transaction_analytics.stg_cards: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "default", "target_name": "dev", "node_id": "model.transaction_analytics.stg_cards"} */
+
+
+  create or replace view `dataverse-360`.`transaction_analytics`.`stg_cards`
+  OPTIONS()
+  as SELECT
+id AS card_id,
+client_id,
+card_brand,
+card_type,
+card_number,
+expires,
+DATE_FORMAT(expires, '%m%d') AS expires_numeric,
+cvv,
+has_chip,
+num_cards_issued,
+CAST(REPLACE(credit_limit, "$",""))AS DECIMAL(10,2) AS credit_limit,
+acct_open_date,
+DATE_FORMAT(acct_open_date, '%m%d') AS acct_open_date_numeric,
+year_pin_last_changed,
+UPPER(card_on_dark_web) AS card_on_dark_web
+
+FROM `dataverse-360`.`transaction_analytics`.`cards_data`;
+
+
+[0m16:05:33.256718 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m16:05:34.224319 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:4d7594b9-93c6-48aa-9aa1-1fa17c1cb97f&page=queryresults
+[0m16:05:34.224319 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:4d7594b9-93c6-48aa-9aa1-1fa17c1cb97f&page=queryresults
+[0m16:05:34.251634 [debug] [Thread-1  ]: Database Error in model stg_cards (models\stg_cards.sql)
+  Syntax error: Expected keyword AS but got ")" at [17:35]
+  compiled code at target\run\transaction_analytics\models\stg_cards.sql
+[0m16:05:34.255163 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D6B3B2E0>]}
+[0m16:05:34.255163 [error] [Thread-1  ]: 1 of 4 ERROR creating sql view model transaction_analytics.stg_cards ........... [[31mERROR[0m in 1.08s]
+[0m16:05:34.255163 [debug] [Thread-1  ]: Finished running node model.transaction_analytics.stg_cards
+[0m16:05:34.263790 [debug] [Thread-1  ]: Began running node model.transaction_analytics.stg_mcc
+[0m16:05:34.265306 [debug] [Thread-4  ]: Marking all children of 'model.transaction_analytics.stg_cards' to be skipped because of status 'error'.  Reason: Database Error in model stg_cards (models\stg_cards.sql)
+  Syntax error: Expected keyword AS but got ")" at [17:35]
+  compiled code at target\run\transaction_analytics\models\stg_cards.sql.
+[0m16:05:34.265306 [info ] [Thread-1  ]: 2 of 4 START sql view model transaction_analytics.stg_mcc ...................... [RUN]
+[0m16:05:34.265306 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.transaction_analytics.stg_cards, now model.transaction_analytics.stg_mcc)
+[0m16:05:34.265306 [debug] [Thread-1  ]: Began compiling node model.transaction_analytics.stg_mcc
+[0m16:05:34.275928 [debug] [Thread-1  ]: Writing injected SQL for node "model.transaction_analytics.stg_mcc"
+[0m16:05:34.275928 [debug] [Thread-1  ]: Began executing node model.transaction_analytics.stg_mcc
+[0m16:05:34.288546 [debug] [Thread-1  ]: Writing runtime sql for node "model.transaction_analytics.stg_mcc"
+[0m16:05:34.288546 [debug] [Thread-1  ]: On model.transaction_analytics.stg_mcc: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "default", "target_name": "dev", "node_id": "model.transaction_analytics.stg_mcc"} */
+
+
+  create or replace view `dataverse-360`.`transaction_analytics`.`stg_mcc`
+  OPTIONS()
+  as SELECT
+mcc_code,
+description
+
+FROM `dataverse-360`.`transaction_analytics`.`mcc_codes`;
+
+
+[0m16:05:34.288546 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m16:05:35.565691 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:europe-west2:1e510e83-dd7e-4cba-bd85-5bf5bc9096c6&page=queryresults
+[0m16:05:35.567703 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:europe-west2:1e510e83-dd7e-4cba-bd85-5bf5bc9096c6&page=queryresults
+[0m16:05:35.571071 [debug] [Thread-1  ]: Database Error in model stg_mcc (models\stg_mcc.sql)
+  Not found: Table dataverse-360:transaction_analytics.mcc_codes was not found in location europe-west2
+  compiled code at target\run\transaction_analytics\models\stg_mcc.sql
+[0m16:05:35.571071 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1E5736040>]}
+[0m16:05:35.575960 [error] [Thread-1  ]: 2 of 4 ERROR creating sql view model transaction_analytics.stg_mcc ............. [[31mERROR[0m in 1.31s]
+[0m16:05:35.575960 [debug] [Thread-1  ]: Finished running node model.transaction_analytics.stg_mcc
+[0m16:05:35.575960 [debug] [Thread-1  ]: Began running node model.transaction_analytics.stg_transactions
+[0m16:05:35.575960 [debug] [Thread-4  ]: Marking all children of 'model.transaction_analytics.stg_mcc' to be skipped because of status 'error'.  Reason: Database Error in model stg_mcc (models\stg_mcc.sql)
+  Not found: Table dataverse-360:transaction_analytics.mcc_codes was not found in location europe-west2
+  compiled code at target\run\transaction_analytics\models\stg_mcc.sql.
+[0m16:05:35.581251 [info ] [Thread-1  ]: 3 of 4 START sql view model transaction_analytics.stg_transactions ............. [RUN]
+[0m16:05:35.581251 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.transaction_analytics.stg_mcc, now model.transaction_analytics.stg_transactions)
+[0m16:05:35.581251 [debug] [Thread-1  ]: Began compiling node model.transaction_analytics.stg_transactions
+[0m16:05:35.581251 [debug] [Thread-1  ]: Writing injected SQL for node "model.transaction_analytics.stg_transactions"
+[0m16:05:35.591749 [debug] [Thread-1  ]: Began executing node model.transaction_analytics.stg_transactions
+[0m16:05:35.601822 [debug] [Thread-1  ]: Writing runtime sql for node "model.transaction_analytics.stg_transactions"
+[0m16:05:35.604376 [debug] [Thread-1  ]: On model.transaction_analytics.stg_transactions: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "default", "target_name": "dev", "node_id": "model.transaction_analytics.stg_transactions"} */
+
+
+  create or replace view `dataverse-360`.`transaction_analytics`.`stg_transactions`
+  OPTIONS()
+  as SELECT
+id AS transaction_id,
+CAST(date AS DATE) AS date,
+client_id,
+card_id,
+CAST(REPLACE(amount,"$","")) AS DECIMAL(10,2) AS amount,
+use_chip,
+merchant_id,
+merchant_city,
+merchant_state,
+zip,
+mcc AS mcc_code,
+errors
+
+FROM `dataverse-360`.`transaction_analytics`.`transactions_data`;
+
+
+[0m16:05:35.606410 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m16:05:36.330561 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:54de4eee-163e-49d3-9ab5-553b2f02c735&page=queryresults
+[0m16:05:36.332583 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:54de4eee-163e-49d3-9ab5-553b2f02c735&page=queryresults
+[0m16:05:36.332583 [debug] [Thread-1  ]: Database Error in model stg_transactions (models\stg_transactions.sql)
+  Syntax error: Expected keyword AS but got ")" at [11:28]
+  compiled code at target\run\transaction_analytics\models\stg_transactions.sql
+[0m16:05:36.332583 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1E5732C10>]}
+[0m16:05:36.340110 [error] [Thread-1  ]: 3 of 4 ERROR creating sql view model transaction_analytics.stg_transactions .... [[31mERROR[0m in 0.75s]
+[0m16:05:36.340110 [debug] [Thread-1  ]: Finished running node model.transaction_analytics.stg_transactions
+[0m16:05:36.340110 [debug] [Thread-1  ]: Began running node model.transaction_analytics.stg_users
+[0m16:05:36.340110 [debug] [Thread-4  ]: Marking all children of 'model.transaction_analytics.stg_transactions' to be skipped because of status 'error'.  Reason: Database Error in model stg_transactions (models\stg_transactions.sql)
+  Syntax error: Expected keyword AS but got ")" at [11:28]
+  compiled code at target\run\transaction_analytics\models\stg_transactions.sql.
+[0m16:05:36.340110 [info ] [Thread-1  ]: 4 of 4 START sql view model transaction_analytics.stg_users .................... [RUN]
+[0m16:05:36.346157 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.transaction_analytics.stg_transactions, now model.transaction_analytics.stg_users)
+[0m16:05:36.346157 [debug] [Thread-1  ]: Began compiling node model.transaction_analytics.stg_users
+[0m16:05:36.350431 [debug] [Thread-1  ]: Writing injected SQL for node "model.transaction_analytics.stg_users"
+[0m16:05:36.350431 [debug] [Thread-1  ]: Began executing node model.transaction_analytics.stg_users
+[0m16:05:36.362364 [debug] [Thread-1  ]: Writing runtime sql for node "model.transaction_analytics.stg_users"
+[0m16:05:36.362364 [debug] [Thread-1  ]: On model.transaction_analytics.stg_users: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "default", "target_name": "dev", "node_id": "model.transaction_analytics.stg_users"} */
+
+
+  create or replace view `dataverse-360`.`transaction_analytics`.`stg_users`
+  OPTIONS()
+  as SELECT
+id AS client_id,
+current_age,
+retirement_age,
+birth_year,
+birth_month,
+gender,
+address,
+latitude,
+longitude,
+CAST(REPLACE(per_capita_income,"$", "")) AS DECIMAL(10,2) AS per_capita_income,
+CAST(REPLACE(yearly_income,"$","")) AS DECIMAL(10,2) AS yearly_income,
+CAST((total_debt,"$","")) AS DECIMAL(10,2) AS total_debt,
+credit_score,
+num_credit_cards
+
+FROM `dataverse-360`.`transaction_analytics`.`users_data`;
+
+
+[0m16:05:36.362364 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m16:05:37.410019 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:1757f082-ad43-45f5-a22a-1e6727fef9c5&page=queryresults
+[0m16:05:37.411159 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:1757f082-ad43-45f5-a22a-1e6727fef9c5&page=queryresults
+[0m16:05:37.415876 [debug] [Thread-1  ]: Database Error in model stg_users (models\stg_users.sql)
+  Syntax error: Expected keyword AS but got ")" at [16:40]
+  compiled code at target\run\transaction_analytics\models\stg_users.sql
+[0m16:05:37.415876 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '789505ea-0fb5-49ad-ac4c-312938c50c59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1E57512B0>]}
+[0m16:05:37.418347 [error] [Thread-1  ]: 4 of 4 ERROR creating sql view model transaction_analytics.stg_users ........... [[31mERROR[0m in 1.07s]
+[0m16:05:37.420356 [debug] [Thread-1  ]: Finished running node model.transaction_analytics.stg_users
+[0m16:05:37.420952 [debug] [Thread-4  ]: Marking all children of 'model.transaction_analytics.stg_users' to be skipped because of status 'error'.  Reason: Database Error in model stg_users (models\stg_users.sql)
+  Syntax error: Expected keyword AS but got ")" at [16:40]
+  compiled code at target\run\transaction_analytics\models\stg_users.sql.
+[0m16:05:37.425149 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m16:05:37.482544 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:05:37.482544 [debug] [MainThread]: Connection 'list_dataverse-360' was properly closed.
+[0m16:05:37.482544 [debug] [MainThread]: Connection 'list_dataverse-360_transaction_analytics' was properly closed.
+[0m16:05:37.482544 [debug] [MainThread]: Connection 'model.transaction_analytics.stg_users' was properly closed.
+[0m16:05:37.482544 [info ] [MainThread]: 
+[0m16:05:37.482544 [info ] [MainThread]: Finished running 4 view models in 0 hours 0 minutes and 6.76 seconds (6.76s).
+[0m16:05:37.482544 [debug] [MainThread]: Command end result
+[0m16:05:37.534774 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\target\manifest.json
+[0m16:05:37.545367 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\target\semantic_manifest.json
+[0m16:05:37.558385 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\dbt\target\run_results.json
+[0m16:05:37.558385 [info ] [MainThread]: 
+[0m16:05:37.558385 [info ] [MainThread]: [31mCompleted with 4 errors, 0 partial successes, and 0 warnings:[0m
+[0m16:05:37.558385 [info ] [MainThread]: 
+[0m16:05:37.558385 [error] [MainThread]: [31mFailure in model stg_cards (models\stg_cards.sql)[0m
+[0m16:05:37.558385 [error] [MainThread]:   Database Error in model stg_cards (models\stg_cards.sql)
+  Syntax error: Expected keyword AS but got ")" at [17:35]
+  compiled code at target\run\transaction_analytics\models\stg_cards.sql
+[0m16:05:37.566328 [info ] [MainThread]: 
+[0m16:05:37.566328 [info ] [MainThread]:   compiled code at target\compiled\transaction_analytics\models\stg_cards.sql
+[0m16:05:37.566328 [info ] [MainThread]: 
+[0m16:05:37.566328 [error] [MainThread]: [31mFailure in model stg_mcc (models\stg_mcc.sql)[0m
+[0m16:05:37.566328 [error] [MainThread]:   Database Error in model stg_mcc (models\stg_mcc.sql)
+  Not found: Table dataverse-360:transaction_analytics.mcc_codes was not found in location europe-west2
+  compiled code at target\run\transaction_analytics\models\stg_mcc.sql
+[0m16:05:37.566328 [info ] [MainThread]: 
+[0m16:05:37.566328 [info ] [MainThread]:   compiled code at target\compiled\transaction_analytics\models\stg_mcc.sql
+[0m16:05:37.566328 [info ] [MainThread]: 
+[0m16:05:37.573860 [error] [MainThread]: [31mFailure in model stg_transactions (models\stg_transactions.sql)[0m
+[0m16:05:37.575932 [error] [MainThread]:   Database Error in model stg_transactions (models\stg_transactions.sql)
+  Syntax error: Expected keyword AS but got ")" at [11:28]
+  compiled code at target\run\transaction_analytics\models\stg_transactions.sql
+[0m16:05:37.576462 [info ] [MainThread]: 
+[0m16:05:37.576462 [info ] [MainThread]:   compiled code at target\compiled\transaction_analytics\models\stg_transactions.sql
+[0m16:05:37.576462 [info ] [MainThread]: 
+[0m16:05:37.576462 [error] [MainThread]: [31mFailure in model stg_users (models\stg_users.sql)[0m
+[0m16:05:37.576462 [error] [MainThread]:   Database Error in model stg_users (models\stg_users.sql)
+  Syntax error: Expected keyword AS but got ")" at [16:40]
+  compiled code at target\run\transaction_analytics\models\stg_users.sql
+[0m16:05:37.576462 [info ] [MainThread]: 
+[0m16:05:37.576462 [info ] [MainThread]:   compiled code at target\compiled\transaction_analytics\models\stg_users.sql
+[0m16:05:37.576462 [info ] [MainThread]: 
+[0m16:05:37.576462 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=4 SKIP=0 NO-OP=0 TOTAL=4
+[0m16:05:37.576462 [debug] [MainThread]: Command `dbt run` failed at 16:05:37.576462 after 14.41 seconds
+[0m16:05:37.586664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D60F8BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1E4C19040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1D4AD9C40>]}
+[0m16:05:37.586664 [debug] [MainThread]: Flushing usage events
+[0m16:05:38.251298 [debug] [MainThread]: An error was encountered while trying to flush usage events
