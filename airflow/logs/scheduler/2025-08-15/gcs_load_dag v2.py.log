@@ -1,0 +1,364 @@
+[2025-08-15T00:28:54.201+0000] {processor.py:161} INFO - Started process (PID=15846) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T00:28:54.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T00:28:54.213+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:28:54.211+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T00:28:55.941+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T00:28:55.980+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:28:55.979+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T00:28:55.996+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:28:55.996+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T00:28:56.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.874 seconds
+[2025-08-15T02:41:39.682+0000] {processor.py:161} INFO - Started process (PID=15850) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T02:41:39.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T02:41:39.690+0000] {logging_mixin.py:188} INFO - [2025-08-15T02:41:39.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T02:41:41.113+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T02:41:41.145+0000] {logging_mixin.py:188} INFO - [2025-08-15T02:41:41.144+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T02:41:41.157+0000] {logging_mixin.py:188} INFO - [2025-08-15T02:41:41.157+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T02:41:41.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.554 seconds
+[2025-08-15T17:09:50.347+0000] {processor.py:161} INFO - Started process (PID=15854) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:09:50.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:09:50.370+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:09:50.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:09:53.382+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:09:53.484+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:09:53.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:09:53.533+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:09:53.533+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:09:53.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 3.331 seconds
+[2025-08-15T17:10:24.357+0000] {processor.py:161} INFO - Started process (PID=15865) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:10:24.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:10:24.361+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:10:24.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:10:25.027+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:10:25.056+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:10:25.055+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:10:25.068+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:10:25.067+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:10:25.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.740 seconds
+[2025-08-15T17:10:55.695+0000] {processor.py:161} INFO - Started process (PID=15876) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:10:55.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:10:55.700+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:10:55.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:10:56.399+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:10:56.447+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:10:56.445+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:10:56.464+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:10:56.463+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:10:56.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.805 seconds
+[2025-08-15T17:11:27.411+0000] {processor.py:161} INFO - Started process (PID=15888) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:11:27.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:11:27.417+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:11:27.416+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:11:28.241+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:11:28.279+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:11:28.278+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:11:28.300+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:11:28.299+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:11:28.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.935 seconds
+[2025-08-15T17:11:59.051+0000] {processor.py:161} INFO - Started process (PID=15899) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:11:59.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:11:59.059+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:11:59.058+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:12:00.140+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:12:00.178+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:12:00.177+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:12:00.193+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:12:00.193+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:12:00.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.187 seconds
+[2025-08-15T17:12:31.079+0000] {processor.py:161} INFO - Started process (PID=15910) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:12:31.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:12:31.089+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:12:31.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:12:31.834+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:12:31.339+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:12:31.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:12:31.357+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:12:31.356+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:12:31.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.334 seconds
+[2025-08-15T17:13:02.401+0000] {processor.py:161} INFO - Started process (PID=15921) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:13:02.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:13:02.408+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:13:02.407+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:13:03.530+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:13:03.575+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:13:03.573+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:13:03.597+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:13:03.596+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:13:03.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.253 seconds
+[2025-08-15T17:13:34.329+0000] {processor.py:161} INFO - Started process (PID=15932) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:13:34.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:13:34.337+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:13:34.336+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:13:35.299+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:13:35.343+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:13:35.342+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:13:35.366+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:13:35.366+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:13:35.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.095 seconds
+[2025-08-15T17:14:06.231+0000] {processor.py:161} INFO - Started process (PID=15944) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:14:06.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:14:06.240+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:14:06.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:14:07.131+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:14:07.177+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:14:07.176+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:14:07.196+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:14:07.196+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:14:07.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.008 seconds
+[2025-08-15T17:14:38.253+0000] {processor.py:161} INFO - Started process (PID=15955) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:14:38.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:14:38.268+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:14:38.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:14:39.582+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:14:39.624+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:14:39.622+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:14:39.642+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:14:39.642+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:14:39.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.464 seconds
+[2025-08-15T17:15:10.653+0000] {processor.py:161} INFO - Started process (PID=15966) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:15:10.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:15:10.659+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:15:10.658+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:15:11.492+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:15:11.537+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:15:11.534+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:15:11.561+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:15:11.560+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:15:11.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.962 seconds
+[2025-08-15T17:15:42.685+0000] {processor.py:161} INFO - Started process (PID=15977) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:15:42.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:15:42.692+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:15:42.691+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:15:43.712+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:15:43.750+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:15:43.749+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:15:43.766+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:15:43.766+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:15:43.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.126 seconds
+[2025-08-15T17:16:14.886+0000] {processor.py:161} INFO - Started process (PID=15988) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:16:14.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:16:14.892+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:16:14.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:16:15.694+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:16:15.732+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:16:15.731+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:16:15.749+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:16:15.749+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:16:15.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.918 seconds
+[2025-08-15T17:16:46.769+0000] {processor.py:161} INFO - Started process (PID=15999) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:16:46.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:16:46.775+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:16:46.774+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:16:47.613+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:16:47.651+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:16:47.650+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:16:47.670+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:16:47.669+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:16:47.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.941 seconds
+[2025-08-15T17:17:18.534+0000] {processor.py:161} INFO - Started process (PID=16010) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:17:18.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:17:18.541+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:17:18.540+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:17:19.618+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:17:19.655+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:17:19.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:17:19.673+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:17:19.673+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:17:19.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.186 seconds
+[2025-08-15T17:17:50.383+0000] {processor.py:161} INFO - Started process (PID=16021) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:17:50.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:17:50.389+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:17:50.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:17:51.398+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:17:51.440+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:17:51.439+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:17:51.457+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:17:51.457+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:17:51.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.125 seconds
+[2025-08-15T17:18:22.360+0000] {processor.py:161} INFO - Started process (PID=16032) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:18:22.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:18:22.366+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:18:22.365+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:18:23.219+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:18:23.256+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:18:23.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:18:23.272+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:18:23.272+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:18:23.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.953 seconds
+[2025-08-15T17:18:54.134+0000] {processor.py:161} INFO - Started process (PID=16036) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:18:54.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:18:54.142+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:18:54.141+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:18:55.072+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:18:55.105+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:18:55.105+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:18:55.123+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:18:55.123+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:18:55.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.045 seconds
+[2025-08-15T17:19:25.881+0000] {processor.py:161} INFO - Started process (PID=16047) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:19:25.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:19:25.889+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:19:25.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:19:26.885+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:19:26.921+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:19:26.920+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:19:26.940+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:19:26.940+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:19:26.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.117 seconds
+[2025-08-15T17:19:57.111+0000] {processor.py:161} INFO - Started process (PID=16059) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:19:57.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:19:57.122+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:19:57.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:19:58.113+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:19:58.153+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:19:58.150+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:19:58.169+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:19:58.169+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:19:58.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.115 seconds
+[2025-08-15T17:20:29.096+0000] {processor.py:161} INFO - Started process (PID=16070) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:20:29.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:20:29.103+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:20:29.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:20:29.990+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:20:30.035+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:20:30.033+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:20:30.056+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:20:30.056+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:20:30.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.013 seconds
+[2025-08-15T17:21:01.101+0000] {processor.py:161} INFO - Started process (PID=16081) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:21:01.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:21:01.109+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:21:01.108+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:21:02.211+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:21:02.249+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:21:02.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:21:02.265+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:21:02.265+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:21:02.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.216 seconds
+[2025-08-15T17:21:33.028+0000] {processor.py:161} INFO - Started process (PID=16093) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:21:33.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:21:33.037+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:21:33.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:21:34.123+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:21:34.160+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:21:34.159+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:21:34.178+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:21:34.178+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:21:34.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.200 seconds
+[2025-08-15T17:22:04.882+0000] {processor.py:161} INFO - Started process (PID=16104) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:22:04.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:22:04.888+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:22:04.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:22:05.839+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:22:05.877+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:22:05.876+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:22:05.894+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:22:05.894+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:22:05.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.066 seconds
+[2025-08-15T17:22:36.591+0000] {processor.py:161} INFO - Started process (PID=16115) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:22:36.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:22:36.598+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:22:36.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:22:37.754+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:22:37.803+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:22:37.798+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:22:37.823+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:22:37.822+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:22:37.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.287 seconds
+[2025-08-15T17:23:08.567+0000] {processor.py:161} INFO - Started process (PID=16127) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:23:08.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:23:08.574+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:23:08.573+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:23:09.513+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:23:09.562+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:23:09.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:23:09.591+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:23:09.591+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:23:09.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.073 seconds
+[2025-08-15T17:23:40.395+0000] {processor.py:161} INFO - Started process (PID=16138) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:23:40.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:23:40.402+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:23:40.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:23:40.339+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:23:40.378+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:23:40.377+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:23:40.395+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:23:40.395+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:23:40.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.984 seconds
+[2025-08-15T17:24:11.213+0000] {processor.py:161} INFO - Started process (PID=16150) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:24:11.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:24:11.222+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:24:11.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:24:12.104+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:24:12.142+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:24:12.140+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:24:12.160+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:24:12.160+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:24:12.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.000 seconds
+[2025-08-15T17:24:43.379+0000] {processor.py:161} INFO - Started process (PID=16163) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:24:43.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:24:43.385+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:24:43.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:24:44.270+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:24:44.308+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:24:44.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:24:44.325+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:24:44.325+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:24:44.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.000 seconds
+[2025-08-15T17:25:14.603+0000] {processor.py:161} INFO - Started process (PID=16174) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:25:14.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:25:14.612+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:25:14.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:25:15.597+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:25:15.634+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:25:15.633+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:25:15.652+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:25:15.651+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:25:15.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.108 seconds
+[2025-08-15T17:25:46.371+0000] {processor.py:161} INFO - Started process (PID=16185) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:25:46.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:25:46.378+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:25:46.378+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:25:47.222+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:25:47.265+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:25:47.264+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:25:47.281+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:25:47.281+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:25:47.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.955 seconds
+[2025-08-15T17:26:18.411+0000] {processor.py:161} INFO - Started process (PID=16196) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:26:18.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:26:18.419+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:26:18.419+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:26:19.479+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:26:19.521+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:26:19.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:26:19.540+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:26:19.539+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:26:19.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.184 seconds
+[2025-08-15T17:26:50.185+0000] {processor.py:161} INFO - Started process (PID=16207) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:26:50.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:26:50.191+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:26:50.190+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:26:51.001+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:26:51.034+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:26:51.033+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:26:51.053+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:26:51.052+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:26:51.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.918 seconds
+[2025-08-15T17:27:21.255+0000] {processor.py:161} INFO - Started process (PID=16218) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:27:21.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:27:21.262+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:27:21.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:27:22.253+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:27:22.293+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:27:22.292+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:27:22.311+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:27:22.311+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:27:22.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.104 seconds
+[2025-08-15T17:27:53.183+0000] {processor.py:161} INFO - Started process (PID=16229) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:27:53.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:27:53.193+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:27:53.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:27:54.106+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:27:54.142+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:27:54.141+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:27:54.161+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:27:54.161+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:27:54.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.037 seconds
+[2025-08-15T17:28:25.024+0000] {processor.py:161} INFO - Started process (PID=16233) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:28:25.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:28:25.031+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:28:25.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:28:25.976+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:28:26.015+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:28:26.014+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:28:26.031+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:28:26.031+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:28:26.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.062 seconds
+[2025-08-15T17:28:56.738+0000] {processor.py:161} INFO - Started process (PID=16244) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:28:56.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:28:56.746+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:28:56.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:28:57.679+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:28:57.718+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:28:57.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:28:57.735+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:28:57.735+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:28:57.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.057 seconds
+[2025-08-15T17:29:28.434+0000] {processor.py:161} INFO - Started process (PID=16255) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:29:28.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:29:28.442+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:29:28.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:29:29.343+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:29:29.384+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:29:29.384+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:29:29.402+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:29:29.402+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:29:29.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.030 seconds
+[2025-08-15T17:29:59.677+0000] {processor.py:161} INFO - Started process (PID=16266) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:29:59.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:29:59.686+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:29:59.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:30:00.620+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:30:00.661+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:30:00.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:30:00.678+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:30:00.677+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:30:00.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.052 seconds
+[2025-08-15T17:30:31.690+0000] {processor.py:161} INFO - Started process (PID=16277) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:30:31.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:30:31.696+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:30:31.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:30:32.602+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:30:32.647+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:30:32.646+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:30:32.663+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:30:32.663+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:30:32.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.015 seconds
+[2025-08-15T17:31:03.367+0000] {processor.py:161} INFO - Started process (PID=16288) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:31:03.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:31:03.375+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:31:03.374+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:31:04.304+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:31:04.343+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:31:04.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:31:04.364+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:31:04.363+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:31:04.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.047 seconds
+[2025-08-15T17:31:35.515+0000] {processor.py:161} INFO - Started process (PID=16299) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:31:35.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:31:35.521+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:31:35.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:31:36.507+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:31:36.545+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:31:36.544+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:31:36.563+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:31:36.562+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:31:36.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.105 seconds
+[2025-08-15T17:32:07.361+0000] {processor.py:161} INFO - Started process (PID=16310) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:32:07.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:32:07.385+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:32:07.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:32:09.172+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:32:09.207+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:32:09.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:32:09.229+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:32:09.229+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:32:09.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.920 seconds
+[2025-08-15T17:32:40.174+0000] {processor.py:161} INFO - Started process (PID=16321) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:32:40.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:32:40.180+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:32:40.179+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:32:41.092+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:32:41.143+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:32:41.142+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:32:41.161+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:32:41.161+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:32:41.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.033 seconds
+[2025-08-15T17:33:12.171+0000] {processor.py:161} INFO - Started process (PID=16332) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:33:12.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:33:12.177+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:33:12.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:33:13.127+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:33:13.182+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:33:13.180+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:33:13.211+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:33:13.211+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:33:13.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.086 seconds
+[2025-08-15T17:33:43.957+0000] {processor.py:161} INFO - Started process (PID=16343) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:33:43.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:33:43.968+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:33:43.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:33:45.025+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:33:45.064+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:33:45.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:33:45.082+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:33:45.081+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:33:45.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.187 seconds
+[2025-08-15T17:34:15.869+0000] {processor.py:161} INFO - Started process (PID=16354) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:34:15.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:34:15.877+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:34:15.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:34:16.762+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:34:16.818+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:34:16.817+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:34:16.838+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:34:16.838+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:34:16.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.030 seconds
+[2025-08-15T17:34:48.092+0000] {processor.py:161} INFO - Started process (PID=16365) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:34:48.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:34:48.099+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:34:48.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:34:48.942+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:34:48.982+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:34:48.981+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:34:49.000+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:34:49.000+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:34:49.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.960 seconds
+[2025-08-15T17:35:20.163+0000] {processor.py:161} INFO - Started process (PID=16376) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:35:20.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:35:20.170+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:35:20.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:35:21.104+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:35:21.153+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:35:21.152+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:35:21.169+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:35:21.169+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:35:21.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 1.056 seconds
+[2025-08-15T17:35:52.082+0000] {processor.py:161} INFO - Started process (PID=16389) to work on /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:35:52.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/gcs_load_dag v2.py for tasks to queue
+[2025-08-15T17:35:52.087+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:35:52.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:35:52.845+0000] {processor.py:840} INFO - DAG(s) 'gcs_process_all_files_v1' retrieved from /opt/airflow/dags/gcs_load_dag v2.py
+[2025-08-15T17:35:52.881+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:35:52.880+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-15T17:35:52.898+0000] {logging_mixin.py:188} INFO - [2025-08-15T17:35:52.898+0000] {dag.py:3954} INFO - Setting next_dagrun for gcs_process_all_files_v1 to None, run_after=None
+[2025-08-15T17:35:52.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/gcs_load_dag v2.py took 0.853 seconds

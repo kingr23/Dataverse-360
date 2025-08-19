@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Source data from the GCS data lake"
+    database: "{{ target.project }}"
+    schema: transaction_analytics
+    loader: gcs
+
+    tables:
+      - name: cards_data
+        external:
+          location: "gs://dataverse360-raw-data-rmk/raw/cards_data.csv"
+          options:
+            format: csv
+            skip_leading_rows: 1
+
+      - name: transactions_data
+        external:
+          location: "gs://dataverse360-raw-data-rmk/raw/transaction_data.csv"
+          options:
+            format: csv
+            skip_leading_rows: 1
+
+      - name: users_data
+        external:
+          location: "gs://dataverse360-raw-data-rmk/raw/users_data.csv"
+          options:
+            format: csv
+            skip_leading_rows: 1
+
+      - name: mcc_codes
+        external:
+          location: "gs://dataverse360-raw-data-rmk/raw/mcc_codes.csv"
+          options:
+            format: csv
+            skip_leading_rows: 1

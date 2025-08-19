@@ -1,0 +1,73 @@
+[2025-08-10T16:11:34.282+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-10T16:11:34.324+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_run_pipeline_v1.dbt_run manual__2025-08-10T16:11:31.841734+00:00 [queued]>
+[2025-08-10T16:11:34.338+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_run_pipeline_v1.dbt_run manual__2025-08-10T16:11:31.841734+00:00 [queued]>
+[2025-08-10T16:11:34.339+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-08-10T16:11:34.363+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2025-08-10 16:11:31.841734+00:00
+[2025-08-10T16:11:34.375+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=77) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-08-10T16:11:34.378+0000] {standard_task_runner.py:63} INFO - Started process 78 to run task
+[2025-08-10T16:11:34.378+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dbt_run_pipeline_v1', 'dbt_run', 'manual__2025-08-10T16:11:31.841734+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/dbt_run_pipeline_v1.py', '--cfg-path', '/tmp/tmpzxowfppk']
+[2025-08-10T16:11:34.380+0000] {standard_task_runner.py:91} INFO - Job 2: Subtask dbt_run
+[2025-08-10T16:11:34.494+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_run_pipeline_v1.dbt_run manual__2025-08-10T16:11:31.841734+00:00 [running]> on host e94eaa51f89a
+[2025-08-10T16:11:34.655+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_run_pipeline_v1' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-08-10T16:11:31.841734+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-10T16:11:31.841734+00:00'
+[2025-08-10T16:11:34.657+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-10T16:11:34.704+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-08-10T16:11:34.704+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run']
+[2025-08-10T16:11:34.730+0000] {subprocess.py:86} INFO - Output:
+[2025-08-10T16:11:38.580+0000] {subprocess.py:93} INFO - [0m16:11:38  Running with dbt=1.10.7
+[2025-08-10T16:11:45.302+0000] {subprocess.py:93} INFO - [0m16:11:45  Registered adapter: bigquery=1.10.1
+[2025-08-10T16:11:45.898+0000] {subprocess.py:93} INFO - [0m16:11:45  Unable to do partial parsing because of a version mismatch
+[2025-08-10T16:11:48.443+0000] {subprocess.py:93} INFO - [0m16:11:48  Found 8 models, 4 sources, 496 macros
+[2025-08-10T16:11:48.449+0000] {subprocess.py:93} INFO - [0m16:11:48
+[2025-08-10T16:11:48.450+0000] {subprocess.py:93} INFO - [0m16:11:48  Concurrency: 1 threads (target='dev')
+[2025-08-10T16:11:48.452+0000] {subprocess.py:93} INFO - [0m16:11:48
+[2025-08-10T16:11:50.837+0000] {subprocess.py:93} INFO - [0m16:11:50  1 of 8 START sql view model transaction_analytics.stg_cards .................... [RUN]
+[2025-08-10T16:11:52.275+0000] {subprocess.py:93} INFO - [0m16:11:52  BigQuery adapter: https://console.cloud.google.com/bigquery?project=dataverse-360&j=bq:US:e840c262-7f1c-4f35-94c4-6994d4ad067c&page=queryresults
+[2025-08-10T16:11:52.299+0000] {subprocess.py:93} INFO - [0m16:11:52  1 of 8 ERROR creating sql view model transaction_analytics.stg_cards ........... [[31mERROR[0m in 1.46s]
+[2025-08-10T16:11:52.309+0000] {subprocess.py:93} INFO - [0m16:11:52  2 of 8 START sql view model transaction_analytics.stg_mcc ...................... [RUN]
+[2025-08-10T16:11:54.902+0000] {subprocess.py:93} INFO - [0m16:11:54  2 of 8 OK created sql view model transaction_analytics.stg_mcc ................. [[32mCREATE VIEW (0 processed)[0m in 2.58s]
+[2025-08-10T16:11:54.912+0000] {subprocess.py:93} INFO - [0m16:11:54  3 of 8 START sql view model transaction_analytics.stg_transactions ............. [RUN]
+[2025-08-10T16:11:56.910+0000] {subprocess.py:93} INFO - [0m16:11:56  3 of 8 OK created sql view model transaction_analytics.stg_transactions ........ [[32mCREATE VIEW (0 processed)[0m in 1.99s]
+[2025-08-10T16:11:56.920+0000] {subprocess.py:93} INFO - [0m16:11:56  4 of 8 START sql view model transaction_analytics.stg_users .................... [RUN]
+[2025-08-10T16:11:59.239+0000] {subprocess.py:93} INFO - [0m16:11:59  4 of 8 OK created sql view model transaction_analytics.stg_users ............... [[32mCREATE VIEW (0 processed)[0m in 2.31s]
+[2025-08-10T16:11:59.244+0000] {subprocess.py:93} INFO - [0m16:11:59  5 of 8 SKIP relation transaction_analytics.dim_cards ........................... [[33mSKIP[0m]
+[2025-08-10T16:11:59.250+0000] {subprocess.py:93} INFO - [0m16:11:59  6 of 8 START sql view model transaction_analytics.dim_mcc_codes ................ [RUN]
+[2025-08-10T16:12:01.878+0000] {subprocess.py:93} INFO - [0m16:12:01  6 of 8 OK created sql view model transaction_analytics.dim_mcc_codes ........... [[32mCREATE VIEW (0 processed)[0m in 2.62s]
+[2025-08-10T16:12:01.883+0000] {subprocess.py:93} INFO - [0m16:12:01  7 of 8 START sql view model transaction_analytics.dim_users .................... [RUN]
+[2025-08-10T16:12:04.129+0000] {subprocess.py:93} INFO - [0m16:12:04  7 of 8 OK created sql view model transaction_analytics.dim_users ............... [[32mCREATE VIEW (0 processed)[0m in 2.24s]
+[2025-08-10T16:12:04.136+0000] {subprocess.py:93} INFO - [0m16:12:04  8 of 8 SKIP relation transaction_analytics.fct_transactions .................... [[33mSKIP[0m]
+[2025-08-10T16:12:04.214+0000] {subprocess.py:93} INFO - [0m16:12:04
+[2025-08-10T16:12:04.216+0000] {subprocess.py:93} INFO - [0m16:12:04  Finished running 8 view models in 0 hours 0 minutes and 15.76 seconds (15.76s).
+[2025-08-10T16:12:04.360+0000] {subprocess.py:93} INFO - [0m16:12:04
+[2025-08-10T16:12:04.361+0000] {subprocess.py:93} INFO - [0m16:12:04  [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[2025-08-10T16:12:04.363+0000] {subprocess.py:93} INFO - [0m16:12:04
+[2025-08-10T16:12:04.365+0000] {subprocess.py:93} INFO - [0m16:12:04  [31mFailure in model stg_cards (models/stg_cards.sql)[0m
+[2025-08-10T16:12:04.367+0000] {subprocess.py:93} INFO - [0m16:12:04    Database Error in model stg_cards (models/stg_cards.sql)
+[2025-08-10T16:12:04.367+0000] {subprocess.py:93} INFO -   Syntax error: Expected end of input but got "(" at [22:18]
+[2025-08-10T16:12:04.368+0000] {subprocess.py:93} INFO -   compiled code at target/run/transaction_analytics/models/stg_cards.sql
+[2025-08-10T16:12:04.368+0000] {subprocess.py:93} INFO - [0m16:12:04
+[2025-08-10T16:12:04.370+0000] {subprocess.py:93} INFO - [0m16:12:04    compiled code at target/compiled/transaction_analytics/models/stg_cards.sql
+[2025-08-10T16:12:04.371+0000] {subprocess.py:93} INFO - [0m16:12:04
+[2025-08-10T16:12:04.373+0000] {subprocess.py:93} INFO - [0m16:12:04  Done. PASS=5 WARN=0 ERROR=1 SKIP=2 NO-OP=0 TOTAL=8
+[2025-08-10T16:12:07.132+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-08-10T16:12:07.133+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-10T16:12:07.152+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-08-10T16:12:07.159+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=dbt_run_pipeline_v1, task_id=dbt_run, run_id=manual__2025-08-10T16:11:31.841734+00:00, execution_date=20250810T161131, start_date=20250810T161134, end_date=20250810T161207
+[2025-08-10T16:12:07.188+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 2 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 78)
+[2025-08-10T16:12:07.234+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-08-10T16:12:07.257+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-10T16:12:07.270+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

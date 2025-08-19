@@ -1,0 +1,14 @@
+# Core Airflow provider for connecting to Google Cloud (GCS, BigQuery, etc.)
+apache-airflow-providers-google
+
+# dbt and its BigQuery adapter, needed for the BashOperator to run dbt commands
+dbt-bigquery
+
+# Used in the PythonOperator for JSON data transformation
+pandas
+
+# Allows pandas and GCSHook to interact with Google Cloud Storage
+gcsfs
+
+# Cryptography library, a core Airflow dependency for connections
+cryptography

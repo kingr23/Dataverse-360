@@ -1,0 +1,94 @@
+---
+x-airflow-common:
+  &airflow-common
+  # This tells Docker to build a custom image from your Dockerfile
+  build: .
+  # The 'image' line is commented out because we are using 'build'
+  # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.9.2}
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
+    AIRFLOW__CORE__FERNET_KEY: 'jz_cC4iSZqt6YvyB4wkzry16FN8s4ITZzyOS5Lrwmig='
+    AIRFLOW__WEBSERVER__SECRET_KEY: '027fe426b5fe255587ff06529dda8350'
+  volumes:
+    # This section mounts all your project folders into every Airflow container
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    - ./gcp:/opt/airflow/gcp
+    - ./dbt:/opt/airflow/dbt
+    - /c/Users/RSK_T14s/.dbt:/home/airflow/.dbt
+  user: "${AIRFLOW_UID:-50000}"
+  depends_on:
+    &airflow-common-depends-on
+    redis:
+      condition: service_healthy
+    postgres:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+    restart: always
+
+  redis:
+    image: redis:7.2-bookworm
+    container_name: redis-db
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+    restart: always
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$$HOSTNAME\""]
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type WorkerJob --hostname \"$$HOSTNAME\""]
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-init:
+    <<: *airflow-common
+    command: >
+      bash -c "airflow db upgrade && airflow users create --username airflow --password airflow --firstname Anonymous --lastname User --role Admin --email admin@example.org --unattended || true"
+
+volumes:
+  postgres-db-volume:

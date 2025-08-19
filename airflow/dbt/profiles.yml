@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: dataverse-360 # Your GCP Project ID
+      dataset: transaction_analytics
+      threads: 1
+      keyfile: '/opt/airflow/gcp/dataverse-360-02dd77a51fd4.json'
+      #keyfile: 'C:\Users\RSK_T14s\Documents\Full Stack Data Project\Dataverse-360\airflow\gcp\dataverse-360-02dd77a51fd4.json'
+      # key this for when ypu want to change views etc

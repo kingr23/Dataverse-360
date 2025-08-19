@@ -1,0 +1,69 @@
+[2025-08-02T21:36:03.885+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-02T21:36:03.910+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gcs_move_landing_to_raw_v1.move_cards_file manual__2025-08-02T21:35:58.755502+00:00 [queued]>
+[2025-08-02T21:36:03.922+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gcs_move_landing_to_raw_v1.move_cards_file manual__2025-08-02T21:35:58.755502+00:00 [queued]>
+[2025-08-02T21:36:03.923+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-08-02T21:36:03.943+0000] {taskinstance.py:2330} INFO - Executing <Task(GCSToGCSOperator): move_cards_file> on 2025-08-02 21:35:58.755502+00:00
+[2025-08-02T21:36:03.958+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=767) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-08-02T21:36:03.961+0000] {standard_task_runner.py:63} INFO - Started process 775 to run task
+[2025-08-02T21:36:03.961+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'gcs_move_landing_to_raw_v1', 'move_cards_file', 'manual__2025-08-02T21:35:58.755502+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/gcs_load_dag.py', '--cfg-path', '/tmp/tmpx1lsg7s9']
+[2025-08-02T21:36:03.965+0000] {standard_task_runner.py:91} INFO - Job 41: Subtask move_cards_file
+[2025-08-02T21:36:04.072+0000] {task_command.py:426} INFO - Running <TaskInstance: gcs_move_landing_to_raw_v1.move_cards_file manual__2025-08-02T21:35:58.755502+00:00 [running]> on host 06d424bf0ee1
+[2025-08-02T21:36:04.218+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='gcs_move_landing_to_raw_v1' AIRFLOW_CTX_TASK_ID='move_cards_file' AIRFLOW_CTX_EXECUTION_DATE='2025-08-02T21:35:58.755502+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-02T21:35:58.755502+00:00'
+[2025-08-02T21:36:04.220+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-02T21:36:04.235+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-08-02T21:36:04.239+0000] {base.py:84} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-08-02T21:36:05.188+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-02T21:36:05.190+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/google/cloud/transfers/gcs_to_gcs.py", line 281, in execute
+    self._copy_source_without_wildcard(hook=hook, prefix=prefix)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/google/cloud/transfers/gcs_to_gcs.py", line 388, in _copy_source_without_wildcard
+    objects = hook.list(
+              ^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 768, in list
+    self._list(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 830, in _list
+    blob_names = [blob.name for blob in blobs]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/page_iterator.py", line 208, in _items_iter
+    for page in self._page_iter(increment=False):
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/page_iterator.py", line 244, in _page_iter
+    page = self._next_page()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/page_iterator.py", line 373, in _next_page
+    response = self._get_next_page_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/page_iterator.py", line 432, in _get_next_page_response
+    return self.api_request(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/cloud/storage/_http.py", line 78, in api_request
+    return call()
+           ^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.NotFound: 404 GET https://storage.googleapis.com/storage/v1/b/dataverse-360-raw-data-rmk/o?projection=noAcl&prefix=landing%2Fcards_data.csv&prettyPrint=false: The specified bucket does not exist.
+[2025-08-02T21:36:05.213+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=gcs_move_landing_to_raw_v1, task_id=move_cards_file, run_id=manual__2025-08-02T21:35:58.755502+00:00, execution_date=20250802T213558, start_date=20250802T213603, end_date=20250802T213605
+[2025-08-02T21:36:05.268+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 41 for task move_cards_file (404 GET https://storage.googleapis.com/storage/v1/b/dataverse-360-raw-data-rmk/o?projection=noAcl&prefix=landing%2Fcards_data.csv&prettyPrint=false: The specified bucket does not exist.; 775)
+[2025-08-02T21:36:05.342+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-08-02T21:36:05.357+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

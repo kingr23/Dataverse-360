@@ -1,0 +1,37 @@
+name: 'transaction_analytics'
+version: '1.0.0'
+config-version: 2
+
+# This is the name of the profile dbt will look for in your profiles.yml file
+profile: 'default'
+
+# These are variables you can use in your project
+vars:
+  # dbt-labs/learn_dbt/models/vars.yml
+
+# Define where dbt should look for different types of files
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+# In this section, you can define configurations for models at whatever granularity you choose.
+# These configurations will be applied to all models in your project unless overridden in a specific model.
+# Check out the docs for more config options: https://docs.getdbt.com/reference/project-configs
+models:
+  transaction_analytics:
+    # Applies to all models in the project
+    +materialized: view
+    # Applies to models in a specific directory
+   

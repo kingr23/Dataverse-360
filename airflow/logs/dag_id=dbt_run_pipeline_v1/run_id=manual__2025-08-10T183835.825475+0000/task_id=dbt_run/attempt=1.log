@@ -1,0 +1,51 @@
+[2025-08-10T18:38:38.444+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-10T18:38:38.483+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_run_pipeline_v1.dbt_run manual__2025-08-10T18:38:35.825475+00:00 [queued]>
+[2025-08-10T18:38:38.497+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_run_pipeline_v1.dbt_run manual__2025-08-10T18:38:35.825475+00:00 [queued]>
+[2025-08-10T18:38:38.507+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-08-10T18:38:38.531+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2025-08-10 18:38:35.825475+00:00
+[2025-08-10T18:38:38.543+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=681) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-08-10T18:38:38.545+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dbt_run_pipeline_v1', 'dbt_run', 'manual__2025-08-10T18:38:35.825475+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dbt_run_pipeline_v1.py', '--cfg-path', '/tmp/tmpeiv87m8a']
+[2025-08-10T18:38:38.548+0000] {standard_task_runner.py:63} INFO - Started process 682 to run task
+[2025-08-10T18:38:38.548+0000] {standard_task_runner.py:91} INFO - Job 8: Subtask dbt_run
+[2025-08-10T18:38:38.659+0000] {task_command.py:426} INFO - Running <TaskInstance: dbt_run_pipeline_v1.dbt_run manual__2025-08-10T18:38:35.825475+00:00 [running]> on host e94eaa51f89a
+[2025-08-10T18:38:38.832+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_run_pipeline_v1' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-08-10T18:38:35.825475+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-10T18:38:35.825475+00:00'
+[2025-08-10T18:38:38.834+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-10T18:38:38.858+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-08-10T18:38:38.859+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run']
+[2025-08-10T18:38:38.880+0000] {subprocess.py:86} INFO - Output:
+[2025-08-10T18:38:42.372+0000] {subprocess.py:93} INFO - [0m18:38:42  Running with dbt=1.10.7
+[2025-08-10T18:38:46.668+0000] {subprocess.py:93} INFO - [0m18:38:46  Registered adapter: bigquery=1.10.1
+[2025-08-10T18:38:48.349+0000] {subprocess.py:93} INFO - [0m18:38:48  Found 8 models, 4 sources, 496 macros
+[2025-08-10T18:38:48.356+0000] {subprocess.py:93} INFO - [0m18:38:48
+[2025-08-10T18:38:48.358+0000] {subprocess.py:93} INFO - [0m18:38:48  Concurrency: 1 threads (target='dev')
+[2025-08-10T18:38:48.360+0000] {subprocess.py:93} INFO - [0m18:38:48
+[2025-08-10T18:38:50.340+0000] {subprocess.py:93} INFO - [0m18:38:50  1 of 8 START sql view model transaction_analytics.stg_cards .................... [RUN]
+[2025-08-10T18:38:52.699+0000] {subprocess.py:93} INFO - [0m18:38:52  1 of 8 OK created sql view model transaction_analytics.stg_cards ............... [[32mCREATE VIEW (0 processed)[0m in 2.35s]
+[2025-08-10T18:38:52.706+0000] {subprocess.py:93} INFO - [0m18:38:52  2 of 8 START sql view model transaction_analytics.stg_mcc ...................... [RUN]
+[2025-08-10T18:38:54.368+0000] {subprocess.py:93} INFO - [0m18:38:54  2 of 8 OK created sql view model transaction_analytics.stg_mcc ................. [[32mCREATE VIEW (0 processed)[0m in 1.66s]
+[2025-08-10T18:38:54.374+0000] {subprocess.py:93} INFO - [0m18:38:54  3 of 8 START sql view model transaction_analytics.stg_transactions ............. [RUN]
+[2025-08-10T18:38:56.099+0000] {subprocess.py:93} INFO - [0m18:38:56  3 of 8 OK created sql view model transaction_analytics.stg_transactions ........ [[32mCREATE VIEW (0 processed)[0m in 1.72s]
+[2025-08-10T18:38:56.105+0000] {subprocess.py:93} INFO - [0m18:38:56  4 of 8 START sql view model transaction_analytics.stg_users .................... [RUN]
+[2025-08-10T18:38:57.584+0000] {subprocess.py:93} INFO - [0m18:38:57  4 of 8 OK created sql view model transaction_analytics.stg_users ............... [[32mCREATE VIEW (0 processed)[0m in 1.47s]
+[2025-08-10T18:38:57.592+0000] {subprocess.py:93} INFO - [0m18:38:57  5 of 8 START sql view model transaction_analytics.dim_cards .................... [RUN]
+[2025-08-10T18:38:59.522+0000] {subprocess.py:93} INFO - [0m18:38:59  5 of 8 OK created sql view model transaction_analytics.dim_cards ............... [[32mCREATE VIEW (0 processed)[0m in 1.92s]
+[2025-08-10T18:38:59.530+0000] {subprocess.py:93} INFO - [0m18:38:59  6 of 8 START sql view model transaction_analytics.dim_mcc_codes ................ [RUN]
+[2025-08-10T18:39:01.927+0000] {subprocess.py:93} INFO - [0m18:39:01  6 of 8 OK created sql view model transaction_analytics.dim_mcc_codes ........... [[32mCREATE VIEW (0 processed)[0m in 2.39s]
+[2025-08-10T18:39:01.935+0000] {subprocess.py:93} INFO - [0m18:39:01  7 of 8 START sql view model transaction_analytics.dim_users .................... [RUN]
+[2025-08-10T18:39:03.744+0000] {subprocess.py:93} INFO - [0m18:39:03  7 of 8 OK created sql view model transaction_analytics.dim_users ............... [[32mCREATE VIEW (0 processed)[0m in 1.80s]
+[2025-08-10T18:39:03.751+0000] {subprocess.py:93} INFO - [0m18:39:03  8 of 8 START sql view model transaction_analytics.fct_transactions ............. [RUN]
+[2025-08-10T18:39:05.965+0000] {subprocess.py:93} INFO - [0m18:39:05  8 of 8 OK created sql view model transaction_analytics.fct_transactions ........ [[32mCREATE VIEW (0 processed)[0m in 2.21s]
+[2025-08-10T18:39:06.042+0000] {subprocess.py:93} INFO - [0m18:39:06
+[2025-08-10T18:39:06.044+0000] {subprocess.py:93} INFO - [0m18:39:06  Finished running 8 view models in 0 hours 0 minutes and 17.68 seconds (17.68s).
+[2025-08-10T18:39:06.162+0000] {subprocess.py:93} INFO - [0m18:39:06
+[2025-08-10T18:39:06.164+0000] {subprocess.py:93} INFO - [0m18:39:06  [32mCompleted successfully[0m
+[2025-08-10T18:39:06.166+0000] {subprocess.py:93} INFO - [0m18:39:06
+[2025-08-10T18:39:06.167+0000] {subprocess.py:93} INFO - [0m18:39:06  Done. PASS=8 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=8
+[2025-08-10T18:39:08.987+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-08-10T18:39:08.988+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-10T18:39:09.031+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dbt_run_pipeline_v1, task_id=dbt_run, run_id=manual__2025-08-10T18:38:35.825475+00:00, execution_date=20250810T183835, start_date=20250810T183838, end_date=20250810T183909
+[2025-08-10T18:39:09.118+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-08-10T18:39:09.144+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-10T18:39:09.156+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
