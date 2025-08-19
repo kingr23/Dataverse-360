@@ -1,13 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "dataverse-360",
-  "private_key_id": "02dd77a51fd42524aeeac216453cee04da772c47",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwhhhgf4/vIDXH\nzm9X7J4mVYznjevQ4qmaszhgbBJdyvUwZWlk1NThNyJY3j6AEqey4BV5oeOhxzYz\nqp70cxABbYBkOgOPO5cxhk2Nmt1VXqCzCJwdsrA7oLSU2YNEuIAB7r5CrOpoy9I7\n2oCiZxQOvWDwbwHaO5lMM8w3sEAl17UHIbfdmMC7qFy7wktLlcvKvWbeplSf9MDX\n9m4oxFzwzwxXgvtPF1+BEjz22IJZkZg7W2/MwhDS13CVmswxkxcBPz6h+yCE0ME5\nJHsIdJTzkha2EgcJNRTBvLHKRfGA1sD+CyG+grnH6vvYa7lfqPXoUnmKvxCoDNQF\n3yS8/UyRAgMBAAECggEADdpIGXKJQhO+BLMPi8/WzV1TVGyPv/G5q5k66F4yxseB\nnE2pCq+lERN5j43JS9Wq8V+ib8wjh/ORLlbKaJaLAAGu3K6sztW3VLycY2tuyR9G\n7yXS0oXOTK+c3D2BjqgH657nsWXOc3DjS60nARejvFBiRhwAAjdBHXjHIuui7RUx\npg1/EZYouqaj9se8N2MZGriaS3FiOt17xVpxqZnVyX7JwhNdSSUOLa3w+xe/B7I8\nI60CxsGJeTySWGip2ZSt7+od60HDTJEiLn7nRjBAyuNfWaUF3GSHWGVKJhYd76T4\nWIVIdJksfp2r8dbiTuySju++GdA+7pNV0RT6FQaCEQKBgQD5ZaDqFupB0+AoHMnt\nPBkwNTrNk+4HFeM/TFh8L3MFyEhW8olxIiVbAPKhyjDaT6db/9RkIzqAm8Zv2GZ0\niyOO1efBQHpW9vM0zqUsTNLi4NpQuqnUjXWztLvMALeDIppBiDhElTlkhixOtKbC\ne3xG3KccVSkzV4+pnE3yoiYvHQKBgQC1MotZsYPr01r3LQwHfkX6hECYMcxHjcQf\nMgI+bZ7Sr9bvfYIocGzZgcKXSkkTPC0LG5BIDXcGsbaUefTD2hPEqvc7AqUlbMrY\nV+0s7iDgDzmtin7evSJlu8lerOv1uNWC0hPsP9qGsft5pT8O/h0t5niwm1xirJya\n1iPHbxUVBQKBgFc+VBJPvdcVVV7y4ziYQ393v4BW9XeJEpv8CyA2QRiOva+c3LO0\n7DhvlnE+l+Rm5PbsAdKd+EMxOzO5Ee5HFkNLVO1nruRpMx8QAvwCS+uOGREQm4R9\nj+UznlZ5EblQC4JNMtHbGd6uiSVnUMbMB+eKHPNuXyFUyi7dPO9aBd2JAoGBAIpq\nLPb8Wqj4EGIHAExtEmnXQzy/tavnSK0H15z2wj9xYYAa4SWhFBVnQU2uynmuGz6D\n9MiFuKndcXqkWuyNl1JBw5BJafxXyfBP4nbTBTwDhWzjAh2GX1NVivMOp0VSx48i\niWOMN5NzPIXlTHFYftPEXeeTFpSuBQdmk3hSi8k9AoGBAI/rAZyww5T1bjHzXhak\ntR+yRFPkHlT7vWvgal8Y+tiyV8F3eabHpsehu264DtuNeLoDLU7LEZuI3d7W7rsW\nIoYHWvcC7IVZlr2i8VjcDnQKL+Tg5lRY+W5fzPJ4poHpbHlAu7qUCMEfS8oECyBV\nUQ3gxoI2aqMms2BwZF+eEuQP\n-----END PRIVATE KEY-----\n",
-  "client_email": "project-service-account@dataverse-360.iam.gserviceaccount.com",
-  "client_id": "109262893970236566561",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/project-service-account%40dataverse-360.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+
